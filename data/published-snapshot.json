@@ -1,0 +1,2085 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-21T19:59:02.381Z",
+  "maps": [
+    {
+      "id": "kodachi",
+      "slug": "kodachi",
+      "name": "木立広域",
+      "subtitle": "ヤドリギの街とその周辺",
+      "kind": "main",
+      "worldWidth": 4352,
+      "worldHeight": 2880,
+      "initialView": "cover",
+      "initialBounds": {
+        "x": 0.3235294117647059,
+        "y": 0.32222222222222224,
+        "width": 0.35294117647058826,
+        "height": 0.35555555555555557
+      },
+      "rasterLayers": [
+        {
+          "id": "kodachi-base",
+          "src": "maps/kodachi-region-3x3.jpg",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "width": 4352,
+          "height": 2880,
+          "zIndex": 0,
+          "opacity": 1,
+          "alt": "木立広域の地図"
+        }
+      ],
+      "features": [
+        {
+          "id": "kodachi-north",
+          "type": "text",
+          "point": {
+            "x": 0.31,
+            "y": 0.36
+          },
+          "text": "木立町",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "mizunashi",
+          "type": "text",
+          "point": {
+            "x": 0.43,
+            "y": 0.47
+          },
+          "text": "水無川",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "shinsakae",
+          "type": "text",
+          "point": {
+            "x": 0.37,
+            "y": 0.39
+          },
+          "text": "新栄橋",
+          "style": "minor",
+          "visible": true
+        },
+        {
+          "id": "kawahara",
+          "type": "text",
+          "point": {
+            "x": 0.34,
+            "y": 0.57
+          },
+          "text": "河原町",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "hibari",
+          "type": "text",
+          "point": {
+            "x": 0.56,
+            "y": 0.27
+          },
+          "text": "ひばり公園",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "station",
+          "type": "text",
+          "point": {
+            "x": 0.48,
+            "y": 0.53
+          },
+          "text": "木立町駅",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "freight",
+          "type": "text",
+          "point": {
+            "x": 0.25,
+            "y": 0.69
+          },
+          "text": "旧貨物線",
+          "style": "minor",
+          "visible": true
+        },
+        {
+          "id": "west-alley",
+          "type": "text",
+          "point": {
+            "x": 0.2,
+            "y": 0.49
+          },
+          "text": "西小路",
+          "style": "minor",
+          "visible": true
+        },
+        {
+          "id": "school",
+          "type": "text",
+          "point": {
+            "x": 0.4,
+            "y": 0.66
+          },
+          "text": "河原町小学校",
+          "style": "minor",
+          "visible": true
+        },
+        {
+          "id": "torigoe-center",
+          "type": "text",
+          "point": {
+            "x": 0.68,
+            "y": 0.39
+          },
+          "text": "鳥越地区",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "old-canal",
+          "type": "text",
+          "point": {
+            "x": 0.72,
+            "y": 0.5
+          },
+          "text": "古川水路",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "torigoe-station",
+          "type": "text",
+          "point": {
+            "x": 0.64,
+            "y": 0.49
+          },
+          "text": "鳥越駅",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "arcade",
+          "type": "text",
+          "point": {
+            "x": 0.67,
+            "y": 0.43
+          },
+          "text": "朝凪商店街",
+          "style": "minor",
+          "visible": true
+        },
+        {
+          "id": "hill",
+          "type": "text",
+          "point": {
+            "x": 0.64,
+            "y": 0.21
+          },
+          "text": "灯台山",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "bath",
+          "type": "text",
+          "point": {
+            "x": 0.61,
+            "y": 0.38
+          },
+          "text": "川端湯",
+          "style": "minor",
+          "visible": true
+        },
+        {
+          "id": "platform",
+          "type": "text",
+          "point": {
+            "x": 0.73,
+            "y": 0.61
+          },
+          "text": "旧月見台",
+          "style": "minor",
+          "visible": true
+        },
+        {
+          "id": "island-route",
+          "type": "text",
+          "point": {
+            "x": 0.9,
+            "y": 0.83
+          },
+          "text": "白波島航路",
+          "style": "note",
+          "visible": true
+        }
+      ],
+      "connections": [
+        {
+          "mapId": "shiranami",
+          "label": "白波島へ渡る"
+        }
+      ],
+      "edition": "ヤドリギ広域地図　探索試験版　2026.08.21",
+      "status": "published",
+      "version": 1,
+      "entity_type": "map",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "shiranami",
+      "slug": "shiranami",
+      "name": "白波島",
+      "subtitle": "海の向こうの別図",
+      "kind": "remote",
+      "worldWidth": 1536,
+      "worldHeight": 1024,
+      "initialView": "contain",
+      "rasterLayers": [
+        {
+          "id": "shiranami-base",
+          "src": "maps/shiranami-island.png",
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "width": 1536,
+          "height": 1024,
+          "zIndex": 0,
+          "opacity": 1,
+          "alt": "白波島の地図"
+        }
+      ],
+      "features": [
+        {
+          "id": "shiranami-port",
+          "type": "text",
+          "point": {
+            "x": 0.49,
+            "y": 0.7
+          },
+          "text": "白波港",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "lighthouse-hill",
+          "type": "text",
+          "point": {
+            "x": 0.27,
+            "y": 0.2
+          },
+          "text": "灯台岬",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "island-village",
+          "type": "text",
+          "point": {
+            "x": 0.4,
+            "y": 0.61
+          },
+          "text": "浜ノ浦集落",
+          "style": "major",
+          "visible": true
+        },
+        {
+          "id": "shrine-grove",
+          "type": "text",
+          "point": {
+            "x": 0.48,
+            "y": 0.36
+          },
+          "text": "波折神社",
+          "style": "minor",
+          "visible": true
+        },
+        {
+          "id": "quarry",
+          "type": "text",
+          "point": {
+            "x": 0.69,
+            "y": 0.22
+          },
+          "text": "旧採石場",
+          "style": "minor",
+          "visible": true
+        },
+        {
+          "id": "satellite-islet",
+          "type": "text",
+          "point": {
+            "x": 0.09,
+            "y": 0.84
+          },
+          "text": "子波島",
+          "style": "note",
+          "visible": true
+        }
+      ],
+      "connections": [
+        {
+          "mapId": "kodachi",
+          "label": "木立広域図へ戻る"
+        }
+      ],
+      "edition": "ヤドリギ地図帳　白波島別図　2026.08.11",
+      "status": "published",
+      "version": 1,
+      "entity_type": "map",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    }
+  ],
+  "issues": [
+    {
+      "id": "island-notes",
+      "slug": "island-notes",
+      "title": "白波島採集帖",
+      "subtitle": "海の向こうの記録",
+      "mapId": "shiranami",
+      "description": "定期船で渡る離島に残された、港と灯台の小さな記録。",
+      "status": "published",
+      "version": 1,
+      "entity_type": "issue",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "issue-4-1",
+      "slug": "issue-4-1",
+      "title": "ヤドリギ 第4-1号",
+      "subtitle": "特集「境目」",
+      "mapId": "kodachi",
+      "description": "川、線路、町の端。異なるものが触れる場所を、同じ広域図の中で集めた特集。",
+      "status": "published",
+      "version": 1,
+      "entity_type": "issue",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "web-2026",
+      "slug": "web-2026",
+      "title": "ウェブ作品集 2026",
+      "subtitle": "木立町に点在する十三作品",
+      "mapId": "kodachi",
+      "description": "雑誌とは別の速度で、書き手と編集者が置き場所を話し合った作品群。",
+      "status": "published",
+      "version": 1,
+      "entity_type": "issue",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    }
+  ],
+  "works": [
+    {
+      "id": "after-last-train",
+      "slug": "after-last-train",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "終電のあとの駅",
+      "author": "大森 環",
+      "location": "木立町駅・二番線",
+      "kind": "text",
+      "excerpt": "改札が閉じると、駅は町から一歩だけ離れる。",
+      "blocks": [
+        {
+          "id": "after-last-train-paragraph-1",
+          "type": "paragraph",
+          "text": "改札が閉じると、駅は町から一歩だけ離れる。自動販売機の白い光と、線路を冷ます音だけが残る。"
+        },
+        {
+          "id": "after-last-train-paragraph-2",
+          "type": "paragraph",
+          "text": "二番線のベンチに、忘れられた手袋が片方ある。朝になれば遺失物として名前を持つが、今夜はただの温度だった。"
+        },
+        {
+          "id": "after-last-train-paragraph-3",
+          "type": "paragraph",
+          "text": "遠くで踏切が鳴った。列車の来ない音は、町の眠りを確かめているようだった。"
+        }
+      ],
+      "tagIds": [
+        "tag-4",
+        "tag-50",
+        "tag-43"
+      ],
+      "placementIds": [
+        "after-last-train-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "after-the-last-ferry",
+      "slug": "after-the-last-ferry",
+      "mapId": "shiranami",
+      "issueId": "island-notes",
+      "title": "最終便のあと",
+      "author": "浜野つぐみ",
+      "location": "白波港・旧待合所",
+      "kind": "text",
+      "excerpt": "最終便が出たあと、港の時計だけが本土の時間を指していた。",
+      "blocks": [
+        {
+          "id": "after-the-last-ferry-paragraph-1",
+          "type": "paragraph",
+          "text": "最終便が出たあと、港の時計だけが本土の時間を指していた。待合所の椅子には、帰らなかった人の体温が少しだけ残っている。"
+        },
+        {
+          "id": "after-the-last-ferry-paragraph-2",
+          "type": "paragraph",
+          "text": "防波堤の先で航路標識が点滅する。海の向こうに街の明かりは見えない。それでも、暗さには方角があった。"
+        },
+        {
+          "id": "after-the-last-ferry-paragraph-3",
+          "type": "paragraph",
+          "text": "売店のシャッターを下ろす音がして、島は一晩ぶん遠くなった。"
+        }
+      ],
+      "tagIds": [
+        "tag-42",
+        "tag-16",
+        "tag-28",
+        "tag-50"
+      ],
+      "placementIds": [
+        "after-the-last-ferry-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "arcade-rain",
+      "slug": "arcade-rain",
+      "mapId": "kodachi",
+      "issueId": "issue-4-1",
+      "title": "アーケードの雨",
+      "author": "桐野まどか",
+      "location": "朝凪商店街・中央口",
+      "kind": "text",
+      "excerpt": "屋根の下にいるのに、町じゅうが雨の音で満ちていた。",
+      "blocks": [
+        {
+          "id": "arcade-rain-paragraph-1",
+          "type": "paragraph",
+          "text": "屋根の下にいるのに、町じゅうが雨の音で満ちていた。透明な板を流れる筋が、閉店した店の名前を歪める。"
+        },
+        {
+          "id": "arcade-rain-paragraph-2",
+          "type": "paragraph",
+          "text": "傘を閉じた人たちは少しだけ歩き方を変える。濡れない場所では、急ぐ理由も薄くなるらしい。"
+        },
+        {
+          "id": "arcade-rain-paragraph-3",
+          "type": "paragraph",
+          "text": "出口の手前で振り返ると、アーケード全体が長い楽器のように鳴っていた。"
+        }
+      ],
+      "tagIds": [
+        "tag-23",
+        "tag-2",
+        "tag-5"
+      ],
+      "placementIds": [
+        "arcade-rain-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "bath-cloud",
+      "slug": "bath-cloud",
+      "mapId": "kodachi",
+      "issueId": "issue-4-1",
+      "title": "浴場から見える雲",
+      "author": "飯島ソラ",
+      "location": "川端湯・男湯の窓",
+      "kind": "text",
+      "excerpt": "曇った窓の四角だけ、空が湯気の向こうに残っている。",
+      "blocks": [
+        {
+          "id": "bath-cloud-paragraph-1",
+          "type": "paragraph",
+          "text": "曇った窓の四角だけ、空が湯気の向こうに残っている。煙突の先で、雲がゆっくり形を変えた。"
+        },
+        {
+          "id": "bath-cloud-paragraph-2",
+          "type": "paragraph",
+          "text": "浴槽では知らない人たちが同じ方向を見ている。話さなくても、雲が消えた時刻だけは共有できた。"
+        },
+        {
+          "id": "bath-cloud-paragraph-3",
+          "type": "paragraph",
+          "text": "外へ出ると雨が降っていた。さっきまで見ていた雲の内側を歩いて帰った。"
+        }
+      ],
+      "tagIds": [
+        "tag-30",
+        "tag-3",
+        "tag-31"
+      ],
+      "placementIds": [
+        "bath-cloud-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "bird-vacant-lot",
+      "slug": "bird-vacant-lot",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "空き地に住む鳥",
+      "author": "本庄ミオ",
+      "location": "東端・造成予定地",
+      "kind": "text",
+      "excerpt": "造成の看板が立ってから、鳥たちは前より長くそこにいた。",
+      "blocks": [
+        {
+          "id": "bird-vacant-lot-paragraph-1",
+          "type": "paragraph",
+          "text": "造成の看板が立ってから、鳥たちは前より長くそこにいた。黄色いロープの内側で、地面の小さな穴を順番にのぞいている。"
+        },
+        {
+          "id": "bird-vacant-lot-paragraph-2",
+          "type": "paragraph",
+          "text": "来年ここに何ができるのか、看板には書かれていない。住宅か、倉庫か、もう一枚の看板か。"
+        },
+        {
+          "id": "bird-vacant-lot-paragraph-3",
+          "type": "paragraph",
+          "text": "夕方、鳥は一斉に飛び立った。空き地だけが、その形をしばらく覚えていた。"
+        }
+      ],
+      "tagIds": [
+        "tag-14",
+        "tag-38",
+        "tag-22"
+      ],
+      "placementIds": [
+        "bird-vacant-lot-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "floodgate-letter",
+      "slug": "floodgate-letter",
+      "mapId": "kodachi",
+      "issueId": "issue-4-1",
+      "title": "水門の手紙",
+      "author": "上野ユリ",
+      "location": "古川水路・第一水門",
+      "kind": "text",
+      "excerpt": "水位の線より少し上に、濡れていない封筒が挟まっていた。",
+      "blocks": [
+        {
+          "id": "floodgate-letter-paragraph-1",
+          "type": "paragraph",
+          "text": "水位の線より少し上に、濡れていない封筒が挟まっていた。宛名はなく、糊だけが新しい。"
+        },
+        {
+          "id": "floodgate-letter-paragraph-2",
+          "type": "paragraph",
+          "text": "水門は町を守るために閉じる。それでも水は、金属の継ぎ目から向こう側の匂いを運んでくる。"
+        },
+        {
+          "id": "floodgate-letter-paragraph-3",
+          "type": "paragraph",
+          "text": "手紙を開かず元へ戻した。次の増水まで、境目には秘密が必要だった。"
+        }
+      ],
+      "tagIds": [
+        "tag-25",
+        "tag-21",
+        "tag-12"
+      ],
+      "placementIds": [
+        "floodgate-letter-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "freight-line-five-pm",
+      "slug": "freight-line-five-pm",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "午後五時、線路脇",
+      "author": "久世 透",
+      "location": "旧貨物線・東の分岐",
+      "kind": "photo",
+      "excerpt": "草に沈みかけた分岐器と、まだ熱を持っている夕方の線路。",
+      "blocks": [
+        {
+          "id": "freight-line-five-pm-featured",
+          "type": "image",
+          "mediaId": "freight-line-photo"
+        }
+      ],
+      "tagIds": [
+        "tag-20",
+        "tag-40",
+        "tag-32",
+        "tag-53"
+      ],
+      "placementIds": [
+        "freight-line-five-pm-primary"
+      ],
+      "mediaIds": [
+        "freight-line-photo"
+      ],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "freight-waiting",
+      "slug": "freight-waiting",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "旧貨物線で待っている",
+      "author": "高井清一",
+      "location": "旧貨物線・分岐跡",
+      "kind": "text",
+      "excerpt": "錆びた線路は、まだ何かを待つ形をしていた。",
+      "blocks": [
+        {
+          "id": "freight-waiting-paragraph-1",
+          "type": "paragraph",
+          "text": "錆びた線路は、まだ何かを待つ形をしていた。草に埋もれながら、二本の線だけは互いの距離を変えない。"
+        },
+        {
+          "id": "freight-waiting-paragraph-2",
+          "type": "paragraph",
+          "text": "かつて何を運んだのか、駅員に聞いても答えは違った。石灰、材木、夜勤明けの人たちの沈黙。どれも本当だったのかもしれない。"
+        },
+        {
+          "id": "freight-waiting-paragraph-3",
+          "type": "paragraph",
+          "text": "列車の来ない時刻表を胸の中でめくる。待つことだけが、ここでは正しい利用法だった。"
+        }
+      ],
+      "tagIds": [
+        "tag-40",
+        "tag-34",
+        "tag-45"
+      ],
+      "placementIds": [
+        "freight-waiting-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "hibari-four",
+      "slug": "hibari-four",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "ひばり公園の午後四時",
+      "author": "羽田 藍",
+      "location": "ひばり公園・北の池",
+      "kind": "text",
+      "excerpt": "遊具の影がいちばん長くなるころ、池のそばに知らない入口ができる。",
+      "blocks": [
+        {
+          "id": "hibari-four-paragraph-1",
+          "type": "paragraph",
+          "text": "遊具の影がいちばん長くなるころ、池のそばに知らない入口ができる。昼にはただの植え込みだった場所が、午後四時だけ奥へつづいて見える。"
+        },
+        {
+          "id": "hibari-four-paragraph-2",
+          "type": "paragraph",
+          "text": "子どもたちは誰もそのことを話さない。靴についた砂を払い、順番に水を飲み、入口を見ないように帰っていく。"
+        },
+        {
+          "id": "hibari-four-paragraph-3",
+          "type": "paragraph",
+          "text": "最後に残ったわたしは、ベンチの下の小石を一つ拾った。翌朝、机の上でそれは濡れていた。"
+        }
+      ],
+      "tagIds": [
+        "tag-15",
+        "tag-18",
+        "tag-19"
+      ],
+      "placementIds": [
+        "hibari-four-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "hill-grave",
+      "slug": "hill-grave",
+      "mapId": "kodachi",
+      "issueId": "issue-4-1",
+      "title": "丘の墓標",
+      "author": "柳瀬冬子",
+      "location": "灯台山・共同墓地",
+      "kind": "text",
+      "excerpt": "丘の上からは、町の境界だけが見えなくなる。",
+      "blocks": [
+        {
+          "id": "hill-grave-paragraph-1",
+          "type": "paragraph",
+          "text": "丘の上からは、町の境界だけが見えなくなる。屋根は一枚の鱗のようにつながり、川だけが光を返す。"
+        },
+        {
+          "id": "hill-grave-paragraph-2",
+          "type": "paragraph",
+          "text": "墓標の間に、まだ文字のない石がある。誰のためでもない石は、町を眺める椅子に似ていた。"
+        },
+        {
+          "id": "hill-grave-paragraph-3",
+          "type": "paragraph",
+          "text": "帰り道、振り返らなかった。見下ろした町がこちらを覚えている気がしたから。"
+        }
+      ],
+      "tagIds": [
+        "tag-11",
+        "tag-48",
+        "tag-37"
+      ],
+      "placementIds": [
+        "hill-grave-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "lighthouse-morning",
+      "slug": "lighthouse-morning",
+      "mapId": "shiranami",
+      "issueId": "island-notes",
+      "title": "灯台の朝",
+      "author": "白石 環",
+      "location": "白波島・灯台岬",
+      "kind": "text",
+      "excerpt": "灯台守がいなくなっても、光は毎朝きちんと海を離れた。",
+      "blocks": [
+        {
+          "id": "lighthouse-morning-paragraph-1",
+          "type": "paragraph",
+          "text": "灯台守がいなくなっても、光は毎朝きちんと海を離れた。白い塔の影が畑の段差を一つずつ越えていく。"
+        },
+        {
+          "id": "lighthouse-morning-paragraph-2",
+          "type": "paragraph",
+          "text": "岬へ上る道で、昨夜の風が松の枝に残っていた。振り返ると集落は小さく、港だけが開いた手のように見える。"
+        },
+        {
+          "id": "lighthouse-morning-paragraph-3",
+          "type": "paragraph",
+          "text": "島の朝は、船が来る前から始まっている。"
+        }
+      ],
+      "tagIds": [
+        "tag-42",
+        "tag-44",
+        "tag-36",
+        "tag-8"
+      ],
+      "placementIds": [
+        "lighthouse-morning-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "night-housing",
+      "slug": "night-housing",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "夜の団地を歩く",
+      "author": "三崎周平",
+      "location": "河原町南・第二団地",
+      "kind": "text",
+      "excerpt": "同じ窓が並んでいるのに、灯りは一つずつ違う。",
+      "blocks": [
+        {
+          "id": "night-housing-paragraph-1",
+          "type": "paragraph",
+          "text": "同じ窓が並んでいるのに、灯りは一つずつ違う。白い台所、青いテレビ、消し忘れた廊下。"
+        },
+        {
+          "id": "night-housing-paragraph-2",
+          "type": "paragraph",
+          "text": "棟と棟のあいだを歩くと、夕飯の匂いが短い境界を作る。魚を焼く家の次には、何も作らない家がある。"
+        },
+        {
+          "id": "night-housing-paragraph-3",
+          "type": "paragraph",
+          "text": "自分の部屋を見上げる。遠くから見ると、そこにも知らない暮らしがあった。"
+        }
+      ],
+      "tagIds": [
+        "tag-35",
+        "tag-31",
+        "tag-50"
+      ],
+      "placementIds": [
+        "night-housing-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "not-crossing",
+      "slug": "not-crossing",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "橋を渡らない日",
+      "author": "和久井 凪",
+      "location": "南川橋・左岸",
+      "kind": "text",
+      "excerpt": "向こう岸に用事がある日にかぎって、橋の手前で足が止まる。",
+      "blocks": [
+        {
+          "id": "not-crossing-paragraph-1",
+          "type": "paragraph",
+          "text": "向こう岸に用事がある日にかぎって、橋の手前で足が止まる。水は低く、風もなく、渡れない理由はどこにもない。"
+        },
+        {
+          "id": "not-crossing-paragraph-2",
+          "type": "paragraph",
+          "text": "欄干の影が道路を横切り、細い柵のようになる。その一本ずつを跨いでいるうちに、約束の時間は過ぎた。"
+        },
+        {
+          "id": "not-crossing-paragraph-3",
+          "type": "paragraph",
+          "text": "渡らなかった一日は、地図には残らない。それでも町の輪郭を少し変えた。"
+        }
+      ],
+      "tagIds": [
+        "tag-13",
+        "tag-29",
+        "tag-33"
+      ],
+      "placementIds": [
+        "not-crossing-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "platformless-train",
+      "slug": "platformless-train",
+      "mapId": "kodachi",
+      "issueId": "issue-4-1",
+      "title": "ホームのない列車",
+      "author": "名取 泉",
+      "location": "旧月見台・廃ホーム跡",
+      "kind": "text",
+      "excerpt": "ホームがなくなってからも、列車はそこで少しだけ速度を落とす。",
+      "blocks": [
+        {
+          "id": "platformless-train-paragraph-1",
+          "type": "paragraph",
+          "text": "ホームがなくなってからも、列車はそこで少しだけ速度を落とす。運転士の癖なのか、時刻表に残った秒数なのか。"
+        },
+        {
+          "id": "platformless-train-paragraph-2",
+          "type": "paragraph",
+          "text": "草の中には黄色い線の断片がある。立ってはいけなかった場所だけが、いまは自由に踏める。"
+        },
+        {
+          "id": "platformless-train-paragraph-3",
+          "type": "paragraph",
+          "text": "夜の列車が通り過ぎる。窓の一つに、降りるはずだった人の顔が見えた。"
+        }
+      ],
+      "tagIds": [
+        "tag-40",
+        "tag-1",
+        "tag-39"
+      ],
+      "placementIds": [
+        "platformless-train-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "pool-blue",
+      "slug": "pool-blue",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "プールの底の青",
+      "author": "江本すず",
+      "location": "河原町小学校・南門",
+      "kind": "text",
+      "excerpt": "使われない季節のプールは、空よりも青をたくさん持っている。",
+      "blocks": [
+        {
+          "id": "pool-blue-paragraph-1",
+          "type": "paragraph",
+          "text": "使われない季節のプールは、空よりも青をたくさん持っている。金網の向こうで、水だけが夏を続けていた。"
+        },
+        {
+          "id": "pool-blue-image-pool-photo",
+          "type": "image",
+          "mediaId": "pool-photo"
+        },
+        {
+          "id": "pool-blue-paragraph-2",
+          "type": "paragraph",
+          "text": "授業中に落としたゴーグルは、まだ排水口の近くにある。取りに戻る理由を考えているうちに、わたしたちは卒業した。"
+        },
+        {
+          "id": "pool-blue-paragraph-3",
+          "type": "paragraph",
+          "text": "風が吹くと水面が揺れる。そのたび、底の青は少しずつ別の場所へ移った。"
+        }
+      ],
+      "tagIds": [
+        "tag-9",
+        "tag-6",
+        "tag-24"
+      ],
+      "placementIds": [
+        "pool-blue-primary",
+        "pool-blue-pool-photo-placement"
+      ],
+      "mediaIds": [
+        "pool-photo"
+      ],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "red-ribbon",
+      "slug": "red-ribbon",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "土手の赤いリボン",
+      "author": "日下部 灯",
+      "location": "水無川・左岸遊歩道",
+      "kind": "text",
+      "excerpt": "草の先に結ばれた赤は、待ち合わせよりも長く残った。",
+      "blocks": [
+        {
+          "id": "red-ribbon-paragraph-1",
+          "type": "paragraph",
+          "text": "草の先に結ばれた赤は、待ち合わせよりも長く残った。雨のたび細くなり、風のたび別の方角を指す。"
+        },
+        {
+          "id": "red-ribbon-paragraph-2",
+          "type": "paragraph",
+          "text": "誰が結んだのかを知っている気がした。けれど名前を口にすると、目印の役目が終わってしまいそうだった。"
+        },
+        {
+          "id": "red-ribbon-paragraph-3",
+          "type": "paragraph",
+          "text": "冬になって草が倒れても、リボンだけは地面すれすれで揺れていた。"
+        }
+      ],
+      "tagIds": [
+        "tag-27",
+        "tag-49",
+        "tag-51"
+      ],
+      "placementIds": [
+        "red-ribbon-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "river-forgets",
+      "slug": "river-forgets",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "川が名前を忘れるまで",
+      "author": "佐伯みな",
+      "location": "水無川・新栄橋の下流",
+      "kind": "text",
+      "excerpt": "橋の下は、いつもすこし暗い。川の底から冷たい気配が立ちのぼって、靴の裏にまとわりつく。",
+      "blocks": [
+        {
+          "id": "river-forgets-paragraph-1",
+          "type": "paragraph",
+          "text": "橋の下は、いつもすこし暗い。昼でも、川の底から冷たい気配が立ちのぼって、靴の裏にまとわりつく。欄干にもたれて水面をのぞくと、流れは静かなようで、じつは絶えず何かを運んでいることがわかる。葉っぱや、発泡スチロールのかけらや、誰かが落としたとしか思えない赤いリボンの切れ端。"
+        },
+        {
+          "id": "river-forgets-image-river-ribbon-photo",
+          "type": "image",
+          "mediaId": "river-ribbon-photo"
+        },
+        {
+          "id": "river-forgets-paragraph-2",
+          "type": "paragraph",
+          "text": "この川の名前を、いつ覚えたのか思い出せない。たぶん、地図で見たときではない。もっと前、子どものころ、夏休みの宿題の帰り道、喉が渇いて歩くのが遅くなって、母に怒られる直前に見つけた川のような気がする。あのときの色は、もっと濃かった。空の青が、水に溶けきれていなかった。"
+        },
+        {
+          "id": "river-forgets-paragraph-3",
+          "type": "paragraph",
+          "text": "人は、よく忘れる。名前も、約束も、昨日の夕食の内容すらも。でも川は、忘れることに慣れているらしい。何度呼ばれ方を変えられても、何度堤防を直されても、同じ場所を、たぶん違うかたちで流れつづける。忘れられることと、消えることとは、ちがうのだ。"
+        },
+        {
+          "id": "river-forgets-paragraph-4",
+          "type": "paragraph",
+          "text": "新栄橋の下流は、流れがゆるむ。川幅も少しひらけて、川岸の草が背をのばす。そこに立つと、風のにおいが変わる。上流から運ばれてきた記憶が、ここでひと呼吸おく。もしも、川が名前を忘れてしまったら、わたしたちはどう呼べばいいのだろう。たとえば、「あのとき」とか。"
+        }
+      ],
+      "tagIds": [
+        "tag-27",
+        "tag-10",
+        "tag-17"
+      ],
+      "placementIds": [
+        "river-forgets-primary",
+        "river-forgets-river-ribbon-photo-placement"
+      ],
+      "mediaIds": [
+        "river-ribbon-photo"
+      ],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "sea-in-postbox",
+      "slug": "sea-in-postbox",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "ポストのなかの海",
+      "author": "瀬戸 綴",
+      "location": "木立町北・集配所前",
+      "kind": "text",
+      "excerpt": "差出人のない葉書には、海の匂いだけが貼りついていた。",
+      "blocks": [
+        {
+          "id": "sea-in-postbox-paragraph-1",
+          "type": "paragraph",
+          "text": "差出人のない葉書には、海の匂いだけが貼りついていた。切手の場所には四角い日焼けがある。"
+        },
+        {
+          "id": "sea-in-postbox-paragraph-2",
+          "type": "paragraph",
+          "text": "この町から海は見えない。川を何日も下れば着くと教わったが、確かめた人を知らない。"
+        },
+        {
+          "id": "sea-in-postbox-paragraph-3",
+          "type": "paragraph",
+          "text": "葉書をポストへ戻す。赤い箱の底で、小さな波が一度だけ鳴った。"
+        }
+      ],
+      "tagIds": [
+        "tag-52",
+        "tag-8",
+        "tag-47"
+      ],
+      "placementIds": [
+        "sea-in-postbox-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "shopping-unravels",
+      "slug": "shopping-unravels",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "ほどける商店街",
+      "author": "北原ユウ",
+      "location": "駅前通り・旧時計店",
+      "kind": "text",
+      "excerpt": "閉まったシャッターの数だけ、通りは広くなった。",
+      "blocks": [
+        {
+          "id": "shopping-unravels-paragraph-1",
+          "type": "paragraph",
+          "text": "閉まったシャッターの数だけ、通りは広くなった。昔は肩が触れた道を、いまは自転車が音もなく通る。"
+        },
+        {
+          "id": "shopping-unravels-paragraph-2",
+          "type": "paragraph",
+          "text": "時計店の看板だけが七分進んだまま残っている。待ち合わせに遅れた人たちは、その七分に助けられたことがあっただろうか。"
+        },
+        {
+          "id": "shopping-unravels-paragraph-3",
+          "type": "paragraph",
+          "text": "角の惣菜屋から湯気が出ると、ほどけた通りが一度だけ結び直される。"
+        }
+      ],
+      "tagIds": [
+        "tag-23",
+        "tag-41",
+        "tag-26"
+      ],
+      "placementIds": [
+        "shopping-unravels-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "wind-alley",
+      "slug": "wind-alley",
+      "mapId": "kodachi",
+      "issueId": "web-2026",
+      "title": "風の抜け道",
+      "author": "森澤 遥",
+      "location": "西小路・四つ角",
+      "kind": "text",
+      "excerpt": "二軒の家のあいだだけ、風は町の決まりを知らない。",
+      "blocks": [
+        {
+          "id": "wind-alley-paragraph-1",
+          "type": "paragraph",
+          "text": "二軒の家のあいだだけ、風は町の決まりを知らない。洗濯物の下をくぐり、室外機の熱を抱え、角を曲がったところで急に冷たくなる。"
+        },
+        {
+          "id": "wind-alley-paragraph-2",
+          "type": "paragraph",
+          "text": "古い塀には、何度も塗り直された青が残っている。指で触れると粉がつき、その粉を見ているうちに、ここに住んだことのない人の帰宅時間までわかるような気がした。"
+        },
+        {
+          "id": "wind-alley-paragraph-3",
+          "type": "paragraph",
+          "text": "路地の出口で振り返る。風だけが、まだ家々のすきまに残っていた。"
+        }
+      ],
+      "tagIds": [
+        "tag-54",
+        "tag-46",
+        "tag-7"
+      ],
+      "placementIds": [
+        "wind-alley-primary"
+      ],
+      "mediaIds": [],
+      "status": "published",
+      "version": 1,
+      "entity_type": "work",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    }
+  ],
+  "placements": [
+    {
+      "id": "after-last-train-primary",
+      "mapId": "kodachi",
+      "workId": "after-last-train",
+      "kind": "primary",
+      "point": {
+        "x": 0.69,
+        "y": 0.36
+      },
+      "location": "木立町駅・二番線",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "after-the-last-ferry-primary",
+      "mapId": "shiranami",
+      "workId": "after-the-last-ferry",
+      "kind": "primary",
+      "point": {
+        "x": 0.49,
+        "y": 0.7
+      },
+      "location": "白波港・旧待合所",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "arcade-rain-primary",
+      "mapId": "kodachi",
+      "workId": "arcade-rain",
+      "kind": "primary",
+      "point": {
+        "x": 0.67,
+        "y": 0.43
+      },
+      "location": "朝凪商店街・中央口",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "bath-cloud-primary",
+      "mapId": "kodachi",
+      "workId": "bath-cloud",
+      "kind": "primary",
+      "point": {
+        "x": 0.61,
+        "y": 0.38
+      },
+      "location": "川端湯・男湯の窓",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "bird-vacant-lot-primary",
+      "mapId": "kodachi",
+      "workId": "bird-vacant-lot",
+      "kind": "primary",
+      "point": {
+        "x": 0.9,
+        "y": 0.38
+      },
+      "location": "東端・造成予定地",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "floodgate-letter-primary",
+      "mapId": "kodachi",
+      "workId": "floodgate-letter",
+      "kind": "primary",
+      "point": {
+        "x": 0.71,
+        "y": 0.48
+      },
+      "location": "古川水路・第一水門",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "freight-line-five-pm-primary",
+      "mapId": "kodachi",
+      "workId": "freight-line-five-pm",
+      "kind": "primary",
+      "point": {
+        "x": 0.86,
+        "y": 0.64
+      },
+      "location": "旧貨物線・東の分岐",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "freight-waiting-primary",
+      "mapId": "kodachi",
+      "workId": "freight-waiting",
+      "kind": "primary",
+      "point": {
+        "x": 0.8,
+        "y": 0.57
+      },
+      "location": "旧貨物線・分岐跡",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "hibari-four-primary",
+      "mapId": "kodachi",
+      "workId": "hibari-four",
+      "kind": "primary",
+      "point": {
+        "x": 0.78,
+        "y": 0.18
+      },
+      "location": "ひばり公園・北の池",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "hill-grave-primary",
+      "mapId": "kodachi",
+      "workId": "hill-grave",
+      "kind": "primary",
+      "point": {
+        "x": 0.64,
+        "y": 0.21
+      },
+      "location": "灯台山・共同墓地",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "lighthouse-morning-primary",
+      "mapId": "shiranami",
+      "workId": "lighthouse-morning",
+      "kind": "primary",
+      "point": {
+        "x": 0.27,
+        "y": 0.2
+      },
+      "location": "白波島・灯台岬",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "night-housing-primary",
+      "mapId": "kodachi",
+      "workId": "night-housing",
+      "kind": "primary",
+      "point": {
+        "x": 0.38,
+        "y": 0.78
+      },
+      "location": "河原町南・第二団地",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "not-crossing-primary",
+      "mapId": "kodachi",
+      "workId": "not-crossing",
+      "kind": "primary",
+      "point": {
+        "x": 0.65,
+        "y": 0.66
+      },
+      "location": "南川橋・左岸",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "platformless-train-primary",
+      "mapId": "kodachi",
+      "workId": "platformless-train",
+      "kind": "primary",
+      "point": {
+        "x": 0.73,
+        "y": 0.61
+      },
+      "location": "旧月見台・廃ホーム跡",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "pool-blue-pool-photo-placement",
+      "mapId": "kodachi",
+      "workId": "pool-blue",
+      "mediaId": "pool-photo",
+      "kind": "related-media",
+      "point": {
+        "x": 0.25,
+        "y": 0.65
+      },
+      "location": "河原町小学校・南門の金網",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "pool-blue-primary",
+      "mapId": "kodachi",
+      "workId": "pool-blue",
+      "kind": "primary",
+      "point": {
+        "x": 0.22,
+        "y": 0.62
+      },
+      "location": "河原町小学校・南門",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "red-ribbon-primary",
+      "mapId": "kodachi",
+      "workId": "red-ribbon",
+      "kind": "primary",
+      "point": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "location": "水無川・左岸遊歩道",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "river-forgets-primary",
+      "mapId": "kodachi",
+      "workId": "river-forgets",
+      "kind": "primary",
+      "point": {
+        "x": 0.45,
+        "y": 0.49
+      },
+      "location": "水無川・新栄橋の下流",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "river-forgets-river-ribbon-photo-placement",
+      "mapId": "kodachi",
+      "workId": "river-forgets",
+      "mediaId": "river-ribbon-photo",
+      "kind": "related-media",
+      "point": {
+        "x": 0.42,
+        "y": 0.53
+      },
+      "location": "水無川左岸・新栄橋の下流",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "sea-in-postbox-primary",
+      "mapId": "kodachi",
+      "workId": "sea-in-postbox",
+      "kind": "primary",
+      "point": {
+        "x": 0.34,
+        "y": 0.23
+      },
+      "location": "木立町北・集配所前",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "shopping-unravels-primary",
+      "mapId": "kodachi",
+      "workId": "shopping-unravels",
+      "kind": "primary",
+      "point": {
+        "x": 0.58,
+        "y": 0.39
+      },
+      "location": "駅前通り・旧時計店",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "wind-alley-primary",
+      "mapId": "kodachi",
+      "workId": "wind-alley",
+      "kind": "primary",
+      "point": {
+        "x": 0.14,
+        "y": 0.42
+      },
+      "location": "西小路・四つ角",
+      "version": 1,
+      "entity_type": "placement",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    }
+  ],
+  "media": [
+    {
+      "id": "freight-line-photo",
+      "src": "photos/freight-line-five-pm.png",
+      "alt": "夏草に半分埋もれた旧貨物線の分岐器と、住宅地へ曲がって消える錆びた線路",
+      "caption": "旧貨物線、東の分岐。午後五時十二分。",
+      "credit": "撮影：久世 透（仮）",
+      "layout": "portrait",
+      "permission": "cleared",
+      "version": 1,
+      "entity_type": "media",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "pool-photo",
+      "src": "photos/pool-after-season.png",
+      "alt": "金網越しに見た、秋の住宅地に残る青い学校プールと水底のゴーグル",
+      "caption": "河原町小学校、南門の金網から。",
+      "credit": "撮影：江本すず（仮）",
+      "layout": "landscape",
+      "permission": "cleared",
+      "version": 1,
+      "entity_type": "media",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "river-ribbon-photo",
+      "src": "photos/red-ribbon-riverbank.png",
+      "alt": "冬枯れの水無川の土手で、草に結ばれた細い赤い布が揺れている",
+      "caption": "水無川左岸、冬。草の先に残っていた赤。",
+      "credit": "撮影：佐伯みな（仮）",
+      "layout": "landscape",
+      "permission": "cleared",
+      "version": 1,
+      "entity_type": "media",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": "tag-1",
+      "slug": "ホーム",
+      "name": "ホーム",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-10",
+      "slug": "記憶",
+      "name": "記憶",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-11",
+      "slug": "丘",
+      "name": "丘",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-12",
+      "slug": "境目",
+      "name": "境目",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-13",
+      "slug": "橋",
+      "name": "橋",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-14",
+      "slug": "空き地",
+      "name": "空き地",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-15",
+      "slug": "公園",
+      "name": "公園",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-16",
+      "slug": "港",
+      "name": "港",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-17",
+      "slug": "散歩",
+      "name": "散歩",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-18",
+      "slug": "子ども",
+      "name": "子ども",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-19",
+      "slug": "時間",
+      "name": "時間",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-2",
+      "slug": "雨",
+      "name": "雨",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-20",
+      "slug": "写真",
+      "name": "写真",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-21",
+      "slug": "手紙",
+      "name": "手紙",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-22",
+      "slug": "周縁",
+      "name": "周縁",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-23",
+      "slug": "商店街",
+      "name": "商店街",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-24",
+      "slug": "水",
+      "name": "水",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-25",
+      "slug": "水門",
+      "name": "水門",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-26",
+      "slug": "声",
+      "name": "声",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-27",
+      "slug": "川",
+      "name": "川",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-28",
+      "slug": "船",
+      "name": "船",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-29",
+      "slug": "選択",
+      "name": "選択",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-3",
+      "slug": "雲",
+      "name": "雲",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-30",
+      "slug": "銭湯",
+      "name": "銭湯",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-31",
+      "slug": "窓",
+      "name": "窓",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-32",
+      "slug": "草",
+      "name": "草",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-33",
+      "slug": "対岸",
+      "name": "対岸",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-34",
+      "slug": "待つ",
+      "name": "待つ",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-35",
+      "slug": "団地",
+      "name": "団地",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-36",
+      "slug": "朝",
+      "name": "朝",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-37",
+      "slug": "眺め",
+      "name": "眺め",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-38",
+      "slug": "鳥",
+      "name": "鳥",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-39",
+      "slug": "通過",
+      "name": "通過",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-4",
+      "slug": "駅",
+      "name": "駅",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-40",
+      "slug": "鉄道",
+      "name": "鉄道",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-41",
+      "slug": "店",
+      "name": "店",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-42",
+      "slug": "島",
+      "name": "島",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-43",
+      "slug": "灯り",
+      "name": "灯り",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-44",
+      "slug": "灯台",
+      "name": "灯台",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-45",
+      "slug": "廃線",
+      "name": "廃線",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-46",
+      "slug": "風",
+      "name": "風",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-47",
+      "slug": "便り",
+      "name": "便り",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-48",
+      "slug": "墓地",
+      "name": "墓地",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-49",
+      "slug": "目印",
+      "name": "目印",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-5",
+      "slug": "屋根",
+      "name": "屋根",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-50",
+      "slug": "夜",
+      "name": "夜",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-51",
+      "slug": "約束",
+      "name": "約束",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-52",
+      "slug": "郵便",
+      "name": "郵便",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-53",
+      "slug": "夕方",
+      "name": "夕方",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-54",
+      "slug": "路地",
+      "name": "路地",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-6",
+      "slug": "夏",
+      "name": "夏",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-7",
+      "slug": "家",
+      "name": "家",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-8",
+      "slug": "海",
+      "name": "海",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    },
+    {
+      "id": "tag-9",
+      "slug": "学校",
+      "name": "学校",
+      "version": 1,
+      "entity_type": "tag",
+      "status": "published",
+      "updatedAt": "2026-08-21T00:00:00.000Z"
+    }
+  ],
+  "operator": "ヤドリギメンバー"
+}
